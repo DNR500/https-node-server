@@ -1,0 +1,20 @@
+{
+  "name": "https-node-server",
+  "version": "1.0.0",
+  "description": "simple example of a https node server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Richards <nathan.richards.500@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "grunt": "^0.4.5",
+    "grunt-jsonlint": "^1.0.7"
+  },
+  "devDependencies": {
+    "gruntify-eslint": "^2.0.0"
+  }
+}
